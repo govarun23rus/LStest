@@ -1,0 +1,8 @@
+{
+  "name": "loftschool_hw_1",
+  "dependencies": {
+    "jquery": "1.11",
+    "normalize.css": "~3.0.3",
+    "html5shiv": "~3.7.2"
+  }
+}

@@ -1,0 +1,37 @@
+{
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-add-site {
+    width: 181px;
+    height: 129px;
+    background-position: -5px -5px;
+}
+
+.sprite-site1 {
+	display: block;
+    width: 184px;
+    height: 130px;
+    background-position: -5px -144px;
+	background: url(../img/site1.png)
+}
+
+.sprite-site-2 {
+    width: 181px;
+    height: 128px;
+    background-position: -196px -5px;
+}
+
+.sprite-site-3 {
+    width: 183px;
+    height: 130px;
+    background-position: -199px -143px;
+}
+
+.sprite-site-4 {
+    width: 184px;
+    height: 127px;
+    background-position: -199px -283px;
+}
