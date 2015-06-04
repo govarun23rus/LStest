@@ -44,3 +44,7 @@
 .social_gh:hover {
     background-image: url(../img/social_gh-active.png);
 }
+{
+position: absolute;
+left: -9999px;
+}

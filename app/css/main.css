@@ -29,6 +29,10 @@ body {
     margin-bottom: 39px;
     background: #eff3f7 url(../img/line.png) bottom center no-repeat;
 }
+.header-logo-link {
+position: absolute;
+left: -9999px;
+}
 
 .page__header__logo {
     position: absolute;
@@ -48,6 +52,10 @@ body {
     position: absolute;
     top: 38px;
     right: 0;
+}
+.{
+position: absolute;
+left: -9999px;
 }
 
 .page__body {
@@ -71,4 +79,8 @@ body {
     margin-bottom: 24px;
     border-radius: 4px;
     overflow: hidden; /* чтобы работал border-radius с дочерними элементами */
+}
+
+.hidden {
+display: none;
 }
