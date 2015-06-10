@@ -5,5 +5,10 @@
 @import url(socials.css);
 @import url(contacts.css);
 @import url(footer.css);
-@import url(addsite.css);
-@import url(../fonts/fira/fira.css);
+@import url(forms.css);
+@import url(modal.css);
+@import url(placeholder.css);
+@import url(page_about-me.css);
+@import url(page_portfolio.css);
+@import url(page_contact.css);
+@import url(page_auth.css);

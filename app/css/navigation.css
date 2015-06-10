@@ -6,6 +6,16 @@
     padding: 0;
     list-style: none;
 }
+.navigation__list__item__link {
+    position: relative;
+    display: block;
+    padding: 25px 28px;
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 22px;
+    color: #959aa8;
+    font-family: 'fira_sanslight';
+}
 .navigation__link {
     position: relative;
     display: block;
@@ -30,7 +40,6 @@
 .navigation__link--active {
     padding: 26px 28px;
     background: #3ba8c0;
-    font-size: 23px;
     color: #fff;
 }
 .navigation__link--active:hover {
