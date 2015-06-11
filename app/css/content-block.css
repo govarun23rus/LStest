@@ -1,22 +1,19 @@
 .content-block {
-    overflow: hidden;
     margin-bottom: 26px;
     border-radius: 4px;
     background: #eff3f7;
-}
-.content-block:last-child {
-    margin-bottom: 0;
+    overflow: hidden;
 }
 .content-block__title {
-    font-size: 27px;
-    font-weight: normal;
-    line-height: 38px;
     display: inline-block;
     margin: 0;
-    margin-bottom: 28px;
+    margin-bottom: 21px;
     padding: 14px 23px;
-    color: #3ba8c0;
     border-bottom: 2px solid #3ba8c0;
+    font-size: 27px;
+    font-weight: normal;
+    color: #3ba8c0;
+    line-height: 38px;
 }
 .content-block__body {
     padding: 0 55px 40px;
