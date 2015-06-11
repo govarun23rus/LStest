@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ДЗ №1</title>
-  <link rel="shortcut icon" href="img/favicon.png" />
-	<a href="/index.html" class="header-logo-link">    
+	<a href="/index.htm" class="header-logo-link">    
           <img src="img/logo.png" alt="logo" class="logo-img">
        <span class="header-logo-text">Сайт Портфолио</span>
-	   </a> 
+</a>
+    <title>ДЗ №1</title>
+  <link rel="shortcut icon" href="img/favicon.png" /> 
     <!-- build:css css/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
@@ -26,15 +26,16 @@
 </head>
 <body>
     <div class="page">
+
         <header class="page__header">
             <div class="page__region">
                 <div class="page__header__logo"><a class="logo" href="/"></a></div>
                 <div class="page__header__socials">
 						<ul class="social">	
-						<li class="socials__item"><a href="https://vk.com/alex.baza" target="_blank" class="social social_vk"><span class="hidden">ВКонтакте</span></a></li>
-                        <li class="socials__item"><a href="" target="_blank" class="social social_tw"><span class="hidden">Twiter</span></a></li>
-                        <li class="socials__item"><a href="https://www.facebook.com/profile.php?id=100009160325779" target="_blank" class="social social_fb"><span class="hidden">Facebook</span></a></li>
-                        <li class="socials__item"><a href="https://github.com/govarun23rus/LStest" target="_blank" class="social social_gh"><span class="hidden">GitHub</span></a></li>
+						<li class="socials__item"><a href="https://vk.com/alex.baza" target="_blank" class="social social_vk"></a></li>
+                        <li class="socials__item"><a href="" target="_blank" class="social social_tw"></a></li>
+                        <li class="socials__item"><a href="https://www.facebook.com/profile.php?id=100009160325779" target="_blank" class="social social_fb"></a></li>
+                        <li class="socials__item"><a href="" target="_blank" class="social social_gh"></a></li>
                     </ul>
                 </div>
 
@@ -113,9 +114,13 @@
 
             <aside class="sidebar_left">
                 <nav class="sidebar-block navigation">
-                     <a href="index.htm" class="navigation__link navigation__link--active">Обо мне</a>
-                    <a href="my_job.htm" class="navigation__link clearfix">Мои работы</a>
-                    <a href="my_contacts.htm" class="navigation__link">Связаться со мной</a>
+					<ul class="navigation__list">
+                        <li class="navigation__list__item">
+						<a href="index.html" class="navigation__link navigation__link--active">Обо мне</a>
+						<a href="my_job.html" class="navigation__link clearfix">Мои работы</a>
+						<a href="my_contacts.html" class="navigation__link">Связаться со мной</a>
+						</li>
+                    </ul>
                 </nav>
 
                 <address class="sidebar-block contacts">
@@ -145,7 +150,7 @@
         <footer class="footer">
             <div class="footer__inner">
                 <div class="footer__auth">
-                    <a href="#" class="auth-handler"></a>
+                    <a href="auth.html" class="auth-handler"></a>
                 </div>
                 <div class="footer__copyright">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его.</div>
             </div>
@@ -154,6 +159,7 @@
     </div>
     <!-- build:js js/vendor.js -->
     <!-- bower:js -->
+	<script src='bower/jquery/dist/jquery.js'></script>
     <!-- endbower -->
     <!-- endbuild -->
 </body>
